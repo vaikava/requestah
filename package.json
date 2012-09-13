@@ -1,0 +1,28 @@
+{
+	"name": "requestah",
+	"description": "lean http wrapper that makes unit testing REST apps a bit less rough",
+	"keywords": ["util", "http", "server", "client", "rest", "testing"],
+	"url": "http://www.vaikava.com",
+	"author": "Joakim B <joakim@theindustry.se>",
+	"contributors": [],
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/vaikavalabs/requestah.git"
+	},
+	"licenses": [
+		{
+			"type": "MIT"
+		}
+	],
+	"version": "1.0.0",
+	"engine": {
+		"node": ">=0.6.12"
+	},
+	"main": "./lib/requestah.js",
+	"devDependencies": {
+		"coffee-script": "~1.3.3",
+		"express": "~3.0.0rc4",
+		"mocha": "~1.4.2"
+	}
+}
+
